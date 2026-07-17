@@ -1,169 +1,86 @@
 ---
-# Display name
 title: 刘润潇
-
-# Name pronunciation (optional)
-name_pronunciation: 'Liu Runxiao'
-
-# Full name (for SEO)
+name_pronunciation: Liu Runxiao
 first_name: 润潇
 last_name: 刘
-
-# Pronouns (optional)
-pronouns: 男
-
-# Status emoji
-status:
-  icon: 🚀
-
-# Is this the primary user of the site?
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
-
-# Role/position/tagline
-role: 博士
-
-# Organizations/Affiliations to display in Biography blox
+role: 控制科学与工程博士研究生
 organizations:
-  - name: 北京航空航天大学
-    url: https://rfly.buaa.edu.cn/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+  - name: 北京航空航天大学 自动化科学与电气工程学院
+    url: https://www.buaa.edu.cn/
+status:
+  icon: 🚁
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://github.com/Shawnliurun
+    label: GitHub
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - 多无人机协同吊运
+  - 耗散与无源控制
+  - 图像视觉伺服控制
+  - 自主空中加油
+  - 无人机集群系统
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: 控制科学与工程 博士（直博）
+    institution: 北京航空航天大学
+    date_start: 2021-09-01
+    date_end: 2026-11-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      自动化科学与电气工程学院，“飞行器控制一体化技术”国家重点实验室可靠飞行控制研究组。导师：全权教授、蔡开元教授。
+
+      博士论文：**面向多机吊运的耗散协同控制**。加权平均分 90.0，排名 12/91（前 15%）。
+  - area: 自动化 工学学士
+    institution: 北京航空航天大学
+    date_start: 2017-09-01
+    date_end: 2021-06-30
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
-
+      GPA 3.854，加权平均分 93.92，综合成绩 97.12，排名 16/169（前 10%），免试推荐直接攻读博士学位。
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
+  - position: 博士研究生｜可靠飞行控制研究组
+    company_name: 北京航空航天大学
+    company_url: https://rfly.buaa.edu.cn/
+    date_start: 2021-09-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+      开展多无人机协同吊运控制、图像伺服控制与自主空中加油研究，覆盖理论分析、MATLAB/Gazebo/UE4 仿真、ROS/PX4 实飞部署与多机飞行实验。
 skills:
-  - name: Technical Skills
+  - name: 研究能力
     items:
-      - name: Python & PyTorch
-        description: ''
+      - name: 协同控制与稳定性分析
+        percent: 95
+        icon: chart-bar
+      - name: MATLAB / Simulink
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: ROS / PX4 / Gazebo
         percent: 90
         icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
-
+      - name: 视觉伺服与无人机实飞
+        percent: 90
+        icon: camera
 languages:
-  - name: English
+  - name: 中文
     percent: 100
-  - name: Spanish
-    percent: 50
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+  - name: 英语（科研写作）
+    percent: 85
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: 国家奖学金
+    date: '2021-01-01'
+    awarder: 中华人民共和国教育部
     icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: RoboMaster 无人飞行器智能感知技术竞赛全国总决赛冠军
+    date: '2023-01-01'
+    awarder: RoboMaster
+    icon: hero/trophy
+  - title: 全国虚拟现实技术及应用创新大赛特等奖
+    date: '2019-01-01'
+    awarder: 全国虚拟现实技术及应用创新大赛
+    icon: hero/trophy
+  - title: 北京航空航天大学优秀毕业生、优秀研究生
+    date: '2021-06-01'
+    awarder: 北京航空航天大学
     icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+北京航空航天大学控制科学与工程直博生，师从全权教授、蔡开元教授。主要研究多无人机协同吊运与图像视觉伺服控制，关注如何让无人机集群在复杂环境和不确定条件下安全、稳定、自主地完成运输与对接任务。已完成 6 篇 SCI 论文，其中 3 篇已发表、3 篇进入审稿阶段，并参与多项自主空中加油与无人化组塔研究项目。

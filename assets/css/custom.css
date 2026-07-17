@@ -1,0 +1,35 @@
+.research-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 3rem;
+}
+.research-stats div {
+  padding: 1.4rem 1rem;
+  border: 1px solid rgba(59, 130, 246, .2);
+  border-radius: 1rem;
+  background: rgba(59, 130, 246, .06);
+  text-align: center;
+}
+.research-stats strong { display: block; font-size: 2rem; color: #2563eb; }
+.research-stats span { font-size: .88rem; color: #64748b; }
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.video-grid figure {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid rgba(148, 163, 184, .25);
+  border-radius: 1rem;
+  background: var(--color-neutral-50, #f8fafc);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, .07);
+}
+.video-grid video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #0f172a; }
+.video-grid figcaption { display: flex; flex-direction: column; gap: .25rem; padding: 1rem 1.2rem 1.2rem; }
+.video-grid figcaption span { color: #64748b; font-size: .9rem; }
+@media (max-width: 720px) {
+  .research-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .video-grid { grid-template-columns: 1fr; }
+}

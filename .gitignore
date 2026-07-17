@@ -75,3 +75,6 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Private source materials (the site uses curated copies under content/static)
+material/
