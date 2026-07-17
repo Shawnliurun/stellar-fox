@@ -39,7 +39,7 @@ sections:
 
         面向软管式自主空中加油与空中对接，建立图像视觉伺服模型并设计速度控制模式下的对接控制器。搭建 MATLAB、UE4、YOLO 与飞控系统融合的高保真平台，在尾流、湍流、阵风和相机安装误差下验证控制方法。
 
-        [查看研究视频与项目 →](/projects/)
+        [查看研究视频与项目 →](projects/)
     design:
       columns: '1'
   - block: collection
